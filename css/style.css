@@ -1,0 +1,96 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: hsl(47, 88%, 63%);
+}
+body h1 {
+  font: 800 16px "Figtree", sans-serif;
+  font-size: 20px;
+  margin: 0;
+  cursor: pointer;
+}
+body h1:hover {
+  color: hsl(47, 88%, 63%);
+}
+body p {
+  margin: 0;
+  font: 600 12px "Figtree", sans-serif;
+  color: hsl(0, 0%, 50%);
+  line-height: 1.8;
+  font-weight: 16px;
+}
+
+.box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.outerBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 280px;
+  width: fit-content;
+  border-radius: 20px;
+  border: 1px solid hsl(0, 0%, 7%);
+  background: hsl(0, 0%, 100%);
+  box-shadow: 5px 5px 0px 2px hsl(0, 0%, 7%);
+  margin: auto;
+}
+
+.innerBox {
+  padding: 20px;
+  max-width: 280px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.imgHero {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.tag {
+  background: hsl(47, 88%, 63%);
+  width: fit-content;
+  padding: 5px;
+  border-radius: 3px;
+  font: 800 16px "Figtree", sans-serif;
+}
+
+.textData {
+  font: 600 12px "Figtree", sans-serif;
+}
+
+.avatarBox {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.avatar {
+  max-width: 30px;
+}
+
+.spanName {
+  font: 800 16px "Figtree", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
